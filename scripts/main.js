@@ -174,7 +174,7 @@ goBtn.addEventListener("click", () => {
 tabsDiv[1].addEventListener("click", () => {
   title1.innerText = "Enter Plain Text";
   title2.innerText = "Cipher Text";
-  actionBtn.innerHTML = "encrypt";
+  actionBtn.innerHTML = "ENCRYPT";
 });
 
 tabsDiv[3].addEventListener("click", () => {
@@ -184,7 +184,7 @@ tabsDiv[3].addEventListener("click", () => {
 });
 
 actionBtn.addEventListener("click", () => {
-  if (actionBtn.innerHTML === "encrypt") {
+  if (actionBtn.innerHTML === "ENCRYPT") {
     txt2.value = encrypt(txt1.value);
   } else {
     console.log(txt1.value);
