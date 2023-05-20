@@ -78,6 +78,8 @@ body {
     flex-direction: row;
     background: rgba(0, 0, 0, 0);
     width: 100%;
+    position: relative;
+    height: 80%;
 }
 
 #alphaTxt {
@@ -208,4 +210,8 @@ body {
 #actionBtn{
     margin-left: 33%;
     margin-top: 20px;
+}
+
+#okayBtn{
+    padding: 20px;
 }
