@@ -180,7 +180,7 @@ tabsDiv[1].addEventListener("click", () => {
 tabsDiv[3].addEventListener("click", () => {
   title1.innerText = "Enter Cipher Text";
   title2.innerText = "Plain Text";
-  actionBtn.innerHTML = "decrypt";
+  actionBtn.innerHTML = "DECRYPT";
 });
 
 actionBtn.addEventListener("click", () => {

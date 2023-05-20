@@ -204,3 +204,8 @@ body {
     margin-right: 0%;
     width: 30%;
 }
+
+#actionBtn{
+    margin-left: 33%;
+    margin-top: 20px;
+}
